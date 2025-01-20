@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { type JSX } from "react";
 
 export function Code({
@@ -7,5 +8,9 @@ export function Code({
   children: React.ReactNode;
   className?: string;
 }): JSX.Element {
-  return <code className={className}>{children}</code>;
+  return (
+    <Link href="/">
+      <code className={className}>{children}</code>
+    </Link>
+  );
 }
