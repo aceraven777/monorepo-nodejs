@@ -1,5 +1,6 @@
-import Image, { type ImageProps } from "next/image";
 import { Button } from "@repo/ui/button";
+import { turborepo } from "@repo/example";
+import Image, { type ImageProps } from "next/image";
 import styles from "./page.module.css";
 
 type Props = Omit<ImageProps, "src"> & {
@@ -54,6 +55,7 @@ export default function Home() {
             />
             Deploy now
           </a>
+          <p>{ turborepo }</p>
           <a
             href="https://turbo.build/repo/docs?utm_source"
             target="_blank"
