@@ -1,5 +1,6 @@
 import { Button } from "@repo/ui/button";
 import { turborepo } from "@repo/example";
+import { youtube } from "@repo/example/youtube";
 import Image, { type ImageProps } from "next/image";
 import styles from "./page.module.css";
 
@@ -56,6 +57,7 @@ export default function Home() {
             Deploy now
           </a>
           <p>{ turborepo }</p>
+          <p>{ youtube() }</p>
           <a
             href="https://turbo.build/repo/docs?utm_source"
             target="_blank"

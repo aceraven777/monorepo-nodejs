@@ -1,7 +1,8 @@
 {
     "name": "@repo/example",
     "exports": {
-      ".": "./dist/index.js"
+      ".": "./dist/index.js",
+      "./youtube": "./dist/youtube.js"
     },
     "scripts": {
         "dev": "tsc --watch --preserveWatchOutput",
