@@ -1,1 +1,1 @@
-export const turborepo = "Turborepooooooo!";
+export const turborepo = "Turborepoooooooo!";
